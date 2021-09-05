@@ -1,0 +1,70 @@
+# SandRPG - Developed for SirBaronSand's 1.18 Minecraft server - by Moerkoet, Takeru, Thorinair.
+# GitHub: https://github.com/mwaning/Spigot.SandRPG
+#=#=#=#=#=#=#=#=#=#
+# Help
+# 0] /rpg-help
+# 1] /rpg-help general
+# 2] /rpg-help playtime
+# 3] /rpg-help races
+# 4] /rpg-help dwarves
+# 5] /rpg-help elves
+# 6] /rpg-help goblins
+# 7] /rpg-help humans
+#=#=#=#=#=#=#=#=#=#
+# Alerts
+# 0] Server console tries to send a command instead of a player
+# 1] Player enters too few arguments
+# 2] Player enters too many arguments
+# 3] Player enters a wrong argument after /rpg-help
+# 4] Player doesn't have enough time played to change their race with /rpg-race <argument>
+# 5] Server console - should remove
+# 6] Player tries to look up an unknown player with /rpg-playtime
+# 7] Player tries to change into an unexisting race with /rpg-race <argument>
+#=#=#=#=#=#=#=#=#=#
+# Messages
+# 0] Player enters the server for the first time
+#=#=#=#=#=#=#=#=#=#
+# Dwarves
+# Elves
+# Goblins
+# Humans
+# ] Custom welcome text for every race, no limit to the amount of entries
+# ] You can use variables %playername% and %race%
+# ] Formatting/Color codes: https://github.com/mwaning/Spigot.SandRPG/blob/main/formattingcodes.png
+#=#=#=#=#=#=#=#=#=#
+help:
+  - "[&5SandRPG&r] Please select what you need help with:\n/rpg-help &5general&r\n/rpg-help &5playtime&r\n/rpg-help &5races&r\n/rpg-help &9dwarves&r\n/rpg-help &2elves&r\n/rpg-help &3goblins&r\n/rpg-help &fhumans&r"
+  - "[&5SandRPG&r] The SandRPG plugin has been created with the intention to slightly enhance the vanilla Minecraft experience, by adding races and buffs/debuffs."
+  - "[&5SandRPG&r] The playtime function lets you see how long you've played on the server per race, and also in total. It only updates once every hour and whenever you log out. To view yours or someone else's, type in one of the following commands:\n/rpg-playtime\n/rpg-playtime &5<name>&r"
+  - "[&5SandRPG&r] There are four different races: &9Dwarves&r, &2Elves&r, &3Goblins&r, and &fHumans&r, the default race. Each one of them comes with different advantages and disadvantages. Once you have chosen a race, it is yours permanently unless you decide to change it, which is possible once you've played that race for 10 hours.\nTo choose or change your race, type:\n/rpg-race &5<&9dwarf&5/&2elf&5/&3goblin&5/&fhuman&5>&r"
+  - "[&5SandRPG&r] &9Dwarves&r are the race that thrives the best in the undergrounds of The Overworld. Your racial buff is that under sea level you receive a mining speed increase."
+  - "[&5SandRPG&r] &2Elves&r are the race that thrives the best on the uppergrounds of The Overworld. Your racial buff is that above sea level you receive a movement speed increase."
+  - "[&5SandRPG&r] &3Goblins&r are the race that thrives the best in The Nether. Your racial buff is that you take no fire damage in The Nether. However, you take a small weakness debuff while outside of it."
+  - "[&5SandRPG&r] &fHumans&r are the default race of the world. Your race counts as human before you assign yourself another race. Humans are the most neutral of all, as they do not have any buffs or debuffs."
+
+alerts:
+  - "[&5SandRPG&r] These commands are only available to players!"
+  - "[&5SandRPG&r] You entered too few arguments."
+  - "[&5SandRPG&r] You entered too many arguments."
+  - "[&5SandRPG&r] Invalid command: /rpg-help &5%command%&r"
+  - "[&5SandRPG&r] You do not have enough time played to complete your race change."
+  - "[&5SandRPG&r] You can't check your playtime as a console!"
+  - "[&5SandRPG&r] Player &5%playername%&r doesn't exist or hasn't been on the server before."
+  - "[&5SandRPG&r] Race &5%race%&r does not exist."
+  
+messages:
+  - "[&5SandRPG&r] Welcome to SandRPG, %playername%!\nThis RPG setting comes with four different races: &6Dwarves&r, &2Elves&r, &3Goblins&r, and &fHumans&r.\nEach of these races have their own unique status effects.\nLearn more: &5/rpg-help&r"
+  - "[&5SandRPG&r] You are currently a &5%race%&r."
+  - "[&5SandRPG&r] Attempting to race change into &5%race%&r..."
+
+dwarves:
+  - ""
+  
+elves:
+  - ""
+  
+goblins:
+  - ""
+  
+humans:
+  - ""
