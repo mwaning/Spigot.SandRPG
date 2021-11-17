@@ -1,9 +1,0 @@
-name: SandRPG
-main: rpg.sand.mc.Main
-version: 1.0
-api-version: 1.17
-commands:
-  rpg-help:
-  rpg-race:
-    permission: sandrpg.race
-  
